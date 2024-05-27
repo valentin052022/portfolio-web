@@ -1,0 +1,132 @@
+
+
+
+.gm-header {
+    background-color:#4E4FEB;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+  }
+
+  
+  .logo {
+    height: 30px;
+  } 
+  
+  /* navbar estilos */
+  .cont-nav {
+    position: relative;
+  }
+  
+  .nav-link {
+    margin: 0px 5px;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px 15px 5px 15px;
+    transition: all 600ms;
+    color: #ffffff;
+    border-radius: 10px;
+  }
+  .cont-nav a {
+    width: 100%;
+    position: relative; /* Para que el ::before sea relativo al enlace */
+  }
+  .nav-link:hover {
+    border-radius: top 3px;
+    color: #ed1648;
+    background-color: #000000; /* Cambiar el color del texto al hacer hover */
+  }
+  
+  .cont-nav a::before {
+    content: "";
+    z-index: 5;
+    position: absolute;
+    bottom: 0; /* Alinea el ::before en la parte inferior del enlace */
+    left: 0%; /* Centra horizontalmente el ::before */
+    width: 0;
+    height: 2px;
+    background-color: #ed1648;
+    border-radius: 100%;
+    transition: all 600ms;
+  }
+
+  
+  /* botones de movil */
+  .bars,
+  .close {
+    display: none;
+  }
+  
+  
+  
+  @media screen and (max-width: 760px) {
+    /* botones movil */
+    .ocultar {
+      display: none;
+    }
+  
+    .mostrar {
+      display: block;
+      animation: icons 1s;
+    }
+  
+    @keyframes icons {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  
+    .bars,
+    .close {
+      color: #ffffff;
+      font-size: 25px;
+    }
+  
+    /* Navbar movil */
+    .cont-nav {
+      display: none;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .isOpen {
+      display: flex;
+      animation: ver 50ms ease-in-out;
+    }
+    .nav-link {
+      color: #fff !important;
+    }
+    .nav-link:hover {
+      background-color: rgba(217, 241, 0, 0);
+    }
+  
+    @keyframes ver {
+      0% {
+        font-size: 0px;
+      }
+  
+      100% {
+        font-size: initial;
+      }
+    }
+  
+    .cont-nav a {
+      text-align: center;
+      padding-top: 10px;
+      width: 100%;
+      color: #000000;
+    }
+    .cont-nav a::before {
+      left: 40%;
+      transition: width 600ms;
+    }
+  
+    .cont-nav a:hover::before {
+      width: 20%;
+    }
+  }
+  

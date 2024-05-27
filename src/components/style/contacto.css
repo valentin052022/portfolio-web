@@ -1,0 +1,70 @@
+#contacto h1 {
+  color: #4e4feb;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+}
+#contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+}
+
+.titulos-section {
+  border-bottom: 4px solid #4e4feb;
+  padding: 5px;
+}
+
+.cont-contacto {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  width: 90%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.cont-contacto a {
+  margin-top: 10px;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 80%;
+  padding: 8px;
+  background-color: #ffffff;
+  transition: all 300ms;
+}
+
+.cont-contacto a:hover {
+  scale: 0.95;
+  background-color: #4e4feb;
+  color: #dddddd;
+}
+
+@media screen and (min-width: 770px){
+    /* contacto */
+
+    .cont-contacto{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        width: 90%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    
+    .cont-contacto a{
+ 
+        width: 25%;
+
+    }
+
+
+}

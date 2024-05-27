@@ -1,0 +1,66 @@
+#sobremi{
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+#sobremi h1{
+    color: #4e4feb;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#sobremi main{
+    padding-top: 50px;
+}
+
+h3{
+    color: #ed1648;
+    font-weight: lighter;
+    font-style: italic;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+
+
+
+
+
+.cont-imagen-sobremi p {
+    text-wrap: balance;
+    color: #858585;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+}
+
+.cont-imagen-sobremi img {
+  margin: 5px 10px 0px 0px;
+  float: left;
+  width: 60%;
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(96, 96, 97, 0.438);
+}
+
+
+.cont-icons-skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.icons-skills{
+    font-size: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    /* background-color: #; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.icons-skills b{
+    font-size: 1rem;
+}
