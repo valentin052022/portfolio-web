@@ -1,8 +1,7 @@
 import React from "react";
 import imgP1 from "../assets/images/tres-en-raya.png";
 import imgP2 from "../assets/images/giftApp.png";
-import imgP3 from "../assets/images/galeria-grid.png";
-import imgP4 from "../assets/images/primer-proyecto.png";
+import imgP4 from "../assets/images/App-iol.png";
 import "./style/proyecto.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -10,6 +9,7 @@ import {
   faCss3,
   faHtml5,
   faInstagram,
+  faNodeJs,
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
 import { faJava } from "@fortawesome/free-brands-svg-icons/faJava";
@@ -34,7 +34,7 @@ export default function Proyectos() {
               </p>
               <div>
                 <FontAwesomeIcon className="icono-proyecto" icon={faHtml5} />
-                
+
                 <FontAwesomeIcon className="icono-proyecto" icon={faCss3} />
                 <FontAwesomeIcon className="icono-proyecto" icon={faReact} />
                 <FontAwesomeIcon className="icono-proyecto" icon={faJs} />
@@ -73,16 +73,19 @@ export default function Proyectos() {
               <img src={imgP4} alt="Miniatura proyecto web dinamica" />
             </div>
             <div className="cont-info-proyecto">
-              <h2>Web Dinamica</h2>
+              <h2>Iol Info Mercado</h2>
               <p>
-                Web dinamica, donde se destaca el uso de JavaScript donde
-                trabajo un poco LocalStorage, Creamos un relog y más.
+                App web que se encarga de consumir la api de IOL
+                (invettirOnline), para facilitar el consumo de la api cree un
+                servidor aparte con node js, express
               </p>
               <div>
                 <FontAwesomeIcon className="icono-proyecto" icon={faHtml5} />
                 <FontAwesomeIcon className="icono-proyecto" icon={faReact} />
                 <FontAwesomeIcon className="icono-proyecto" icon={faCss3} />
-                <a href="">IR AL PROYECTO</a>
+                <FontAwesomeIcon className="icono-proyecto" icon={faBootstrap}/>
+                <FontAwesomeIcon className="icono-proyecto" icon={faNodeJs}/>
+                <a href="http://app-iol-market-valentin-peralta.netlify.app">IR AL PROYECTO</a>
               </div>
             </div>
           </article>

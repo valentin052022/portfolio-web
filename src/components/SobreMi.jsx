@@ -10,6 +10,7 @@ import JavaScript from "../assets/icons/JavaScript";
 import Netlify from "../assets/icons/Netlify";
 import Node from "../assets/icons/Node";
 import IconR from "../assets/icons/React";
+import ImgVale from '../assets/images/vale.jpg'
 
 export default function SobreMi() {
   return (
@@ -20,7 +21,7 @@ export default function SobreMi() {
         <article className="col-md-7 cont-conoceme">
           <h3>Conóceme</h3>
           <div className="cont-imagen-sobremi">
-            <img src="src\assets\images\vale.jpg" alt="" />
+            <img src={ImgVale} alt="" />
             <p>
               Soy un apasionado/a de la tecnología y las finanzas, con una gran
               curiosidad por el mundo que me rodea. Actualmente vivo en Calchín,
