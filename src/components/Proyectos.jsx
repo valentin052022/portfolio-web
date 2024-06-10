@@ -38,7 +38,7 @@ export default function Proyectos() {
                 <FontAwesomeIcon className="icono-proyecto" icon={faCss3} />
                 <FontAwesomeIcon className="icono-proyecto" icon={faReact} />
                 <FontAwesomeIcon className="icono-proyecto" icon={faJs} />
-                <a href="">IR AL PROYECTO</a>
+                <a href="https://juego-3enraya-vale.netlify.app" target="_blank">IR AL PROYECTO</a>
               </div>
             </div>
           </article>
@@ -62,7 +62,7 @@ export default function Proyectos() {
                   className="icono-proyecto"
                   icon={faBootstrap}
                 />
-                <a href="">IR AL PROYECTO</a>
+                <a href="https://vale-gif-app.netlify.app/" target="_blank">IR AL PROYECTO</a>
               </div>
             </div>
           </article>
@@ -85,7 +85,7 @@ export default function Proyectos() {
                 <FontAwesomeIcon className="icono-proyecto" icon={faCss3} />
                 <FontAwesomeIcon className="icono-proyecto" icon={faBootstrap}/>
                 <FontAwesomeIcon className="icono-proyecto" icon={faNodeJs}/>
-                <a href="http://app-iol-market-valentin-peralta.netlify.app">IR AL PROYECTO</a>
+                <a href="http://app-iol-market-valentin-peralta.netlify.app" target="_blank">IR AL PROYECTO</a>
               </div>
             </div>
           </article>
